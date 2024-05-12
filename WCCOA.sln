@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlRpc", "XmlRpc\XmlRpc.csproj", "{E2388888-6993-434D-81CD-41BF63F3B105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCCOA", "WCCOA\WCCOA.csproj", "{CA86D4E5-8207-4C82-9B02-8BC272049FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpcTools", "RpcTools\RpcTools.csproj", "{7F8DA943-496F-44DD-8ABB-7A99B479CEAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCCOAClientExample1", "WCCOAClientExample1\WCCOAClientExample1.csproj", "{63783D0A-2C2D-4D6C-BDA6-5C0AB9A92A9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCCOAClientExample2", "WCCOAClientExample2\WCCOAClientExample2.csproj", "{865BF8D8-88EA-4ABB-9D35-C3757E1454D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCCOANetServer", "WCCOANetServer\WCCOANetServer.csproj", "{8C324DEB-B5D2-443E-9FAD-EDB49FB471C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCCOAClientExample3", "WCCOAClientExample3\WCCOAClientExample3.csproj", "{74415619-1323-4610-B55D-C02F0E240194}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63783D0A-2C2D-4D6C-BDA6-5C0AB9A92A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63783D0A-2C2D-4D6C-BDA6-5C0AB9A92A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63783D0A-2C2D-4D6C-BDA6-5C0AB9A92A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63783D0A-2C2D-4D6C-BDA6-5C0AB9A92A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74415619-1323-4610-B55D-C02F0E240194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74415619-1323-4610-B55D-C02F0E240194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74415619-1323-4610-B55D-C02F0E240194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74415619-1323-4610-B55D-C02F0E240194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8DA943-496F-44DD-8ABB-7A99B479CEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8DA943-496F-44DD-8ABB-7A99B479CEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8DA943-496F-44DD-8ABB-7A99B479CEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8DA943-496F-44DD-8ABB-7A99B479CEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{865BF8D8-88EA-4ABB-9D35-C3757E1454D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865BF8D8-88EA-4ABB-9D35-C3757E1454D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865BF8D8-88EA-4ABB-9D35-C3757E1454D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865BF8D8-88EA-4ABB-9D35-C3757E1454D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C324DEB-B5D2-443E-9FAD-EDB49FB471C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C324DEB-B5D2-443E-9FAD-EDB49FB471C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C324DEB-B5D2-443E-9FAD-EDB49FB471C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C324DEB-B5D2-443E-9FAD-EDB49FB471C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA86D4E5-8207-4C82-9B02-8BC272049FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA86D4E5-8207-4C82-9B02-8BC272049FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA86D4E5-8207-4C82-9B02-8BC272049FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA86D4E5-8207-4C82-9B02-8BC272049FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2388888-6993-434D-81CD-41BF63F3B105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2388888-6993-434D-81CD-41BF63F3B105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2388888-6993-434D-81CD-41BF63F3B105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2388888-6993-434D-81CD-41BF63F3B105}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = WCCOANetServer\WCCOANetServer.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabsToSpaces = False
+		$3.inheritsSet = VisualStudio
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+		$0.DotNetNamingPolicy = $4
+		$4.DirectoryNamespaceAssociation = None
+		$4.ResourceNamePolicy = FileFormatDefault
+		version = 0.2
+	EndGlobalSection
+EndGlobal

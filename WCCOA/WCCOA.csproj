@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CA86D4E5-8207-4C82-9B02-8BC272049FA5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Roc.WCCOA</RootNamespace>
+    <AssemblyName>WCCOA</AssemblyName>
+    <ReleaseVersion>0.2</ReleaseVersion>
+    <SynchReleaseVersion>False</SynchReleaseVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Runtime.Remoting" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Debug.cs" />
+    <Compile Include="WCCOABase.cs" />
+    <Compile Include="WCCOATag.cs" />
+    <Compile Include="WCCOATagList.cs" />
+    <Compile Include="WCCOAClient.cs" />
+    <Compile Include="WCCOAXmlTcp.cs" />
+    <Compile Include="WCCOAProxy.cs" />
+    <Compile Include="WCCOAConnection.cs" />
+    <Compile Include="WCCOAConnectItem.cs" />
+    <Compile Include="WCCOAProxyRemote.cs" />
+    <Compile Include="WCCOAProxyServer.cs" />
+    <Compile Include="WCCOAXmlRpc.cs" />
+    <Compile Include="WCCOAProxyWorker.cs" />
+    <Compile Include="WCCOAClientWorker.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\XmlRpc\XmlRpc.csproj">
+      <Project>{E2388888-6993-434D-81CD-41BF63F3B105}</Project>
+      <Name>XmlRpc</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="scripts\libs\xmltcp.ctl" />
+    <None Include="scripts\xmlnet_server.ctl" />
+    <None Include="scripts\libs\xmlrpc.ctl" />
+  </ItemGroup>
+</Project>
